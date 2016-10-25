@@ -36,7 +36,7 @@ func main() {
 に配置します。GOPATH について詳しくは公式の資料に譲ります。
 仮に GOPATH が ${HOME}/go だった場合は以下のような配置になります。
 
-* /homge/yuichi/go/src/github.com/yuichi1004/src/go-webapp/t01_helloworld
+* /homge/yuichi/go/src/github.com/yuichi1004/src/go-webapp/chapter2/01_hello
 ** main.go
 
 GOPATH が構成できて、コードが配置できたら、コードを実行してみましょう。
@@ -51,5 +51,4 @@ Hello, wordl! のメッセージが表示されるはずです。
 ## Next
 
 それでは次の章でリクエストのルーティングについて調べてみましょう。
-
 
