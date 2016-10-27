@@ -1,0 +1,24 @@
+<html>
+<head>
+  <title>My First Chat</title>
+</head>
+<body>
+
+<h1>My First Chat</h1>
+<form action="/" method="POST">
+  name:
+  <input type="text" name="name"></input>
+  message:
+  <input type="text" name="message"></input>
+  <input type="submit"></input>
+</form>
+
+<dl>
+  {{ range $.Posts }}
+    <dt>{{ .Name }}</dt>
+    <dd>{{ .Message }}</dd>
+  {{ end }}
+</dl>
+</body>
+</html>
+
